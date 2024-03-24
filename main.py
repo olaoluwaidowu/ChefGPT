@@ -1,4 +1,6 @@
-from ChefGPT import Chef_One
+from ChefONE import Chef_One
+from chefTWO import Chef_Two
+from chefTHREE import Chef_Three
 import os
 #from ../openAI/Secret_Key import secret_key
 
