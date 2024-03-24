@@ -45,8 +45,11 @@ while True:
     for chunk in stream:
         
         if chunk.choices[0].delta.content == '1':
-            
             Chef_One(dish)
+        elif chunk.choices[0].delta.content == '2':
+            Chef_Two(dish)
+        elif chunk.choices[0].delta.content == '3':
+            Chef_Three(dish)
         else:
             chunk_message = chunk.choices[0].delta.content or ""
             print(chunk_message, end="")
