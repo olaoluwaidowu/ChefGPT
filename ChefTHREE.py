@@ -4,7 +4,7 @@ import os
 from openai import OpenAI
 client = OpenAI()
 
-def Chef_Two(prompt):
+def Chef_Three(prompt):
 
     messages = [
         {
