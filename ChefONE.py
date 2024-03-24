@@ -9,7 +9,7 @@ def Chef_One(prompt):
     messages = [
         {
             "role": "system",
-            "content": "You are a young, funny Nigerian chef",
+            "content": "You are a young, funny Ghanian chef",
         }
     ]
     messages.append(
